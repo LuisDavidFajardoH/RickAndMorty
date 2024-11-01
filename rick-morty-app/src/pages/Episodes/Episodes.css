@@ -1,0 +1,214 @@
+.episodes-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    margin-left: 12%;
+    max-width: 80%;
+}
+
+.ant-card {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.ant-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.ant-card-cover img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.ant-card-meta-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.ant-card-meta-description {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.episode-details {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10%;
+}
+
+/* Estilo para los contenedores de los botones */
+.actions-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+    padding: 0 10px 10px;
+    margin-left: -10%;
+}
+
+.ant-btn {
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    background-color: #62b53f;
+    border-radius: 20px;
+    padding: 6px 12px;
+    transition: background-color 0.3s, color 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex: 1;
+}
+
+.ant-btn:hover {
+    background-color: #40a9ff;
+    color: #fff;
+}
+
+.star-icon {
+    color: #fadb14;
+}
+
+
+.pagination-buttons {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px 0; 
+    display: flex;
+    justify-content: center;
+    gap: 2px; 
+}
+
+.pagination-buttons .ant-btn {
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    max-width: 15%;
+}
+
+.pagination-buttons .ant-btn:disabled {
+    background-color: #d9d9d9;
+    color: #8c8c8c;
+    cursor: not-allowed;
+    max-width: 15%;
+}
+
+.pagination-buttons .ant-btn:not(:disabled):hover {
+    background-color: #40a9ff;
+    color: #fff;
+}
+
+
+.ant-modal-content {
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: #f5f5f5;
+}
+
+.ant-modal-header {
+    border-bottom: none;
+    padding: 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.ant-modal-title {
+    color: #1890ff;
+    font-weight: bold;
+}
+
+.ant-modal-body {
+    padding: 20px;
+}
+
+.modal-content {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.modal-content p {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+
+.character-list {
+    margin-top: 15px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.character-list .ant-list-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.character-list .ant-list-item:last-child {
+    border-bottom: none;
+}
+
+.character-list .ant-avatar {
+    margin-right: 15px;
+}
+
+.character-list .ant-list-item-meta-title {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+
+.character-list .ant-list-item-meta-description {
+    color: #777;
+}
+
+
+.ant-btn-link {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin: 15px auto;
+    border: none;
+}
+
+.ant-btn-link:hover {
+    color: #40a9ff;
+    background-color: transparent;
+}
+
+
+.actions-container {
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+.character-item {
+    cursor: pointer; 
+    padding: 10px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    border-radius: 8px; 
+    display: flex;
+    align-items: center;
+  }
+  
+  .character-item:hover {
+    background-color: #b4f5ce; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); 
+  }
