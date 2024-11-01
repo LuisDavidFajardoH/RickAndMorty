@@ -1,0 +1,102 @@
+/* Estilo para el contenedor principal */
+.home-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos */
+.home-container .ant-typography h2,
+.home-container .ant-typography h3 {
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Párrafos */
+.home-container .ant-typography p {
+    color: #555;
+    line-height: 1.6;
+    font-size: 16px;
+    text-align: justify;
+}
+
+/* Lista de Guía Rápida */
+.home-quick-guide .ant-list-item {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.home-quick-guide .ant-list-item:hover {
+    background-color: #fafafa;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Iconos de la Guía */
+.home-quick-guide .ant-list-item .anticon {
+    font-size: 24px;
+    margin-right: 12px;
+}
+
+/* Título y detalles de cada ítem de la lista */
+.home-quick-guide .ant-list-item-meta-title {
+    font-weight: bold;
+    color: #1a1a1a;
+    font-size: 18px;
+}
+
+.home-quick-guide .ant-list-item-meta-description {
+    color: #666;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+/* Sección de "¿Por qué favoritos?" */
+.favorite-reason-card {
+    margin-top: 20px;
+    padding: 18px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #eaeaea;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.favorite-reason-card:hover {
+    transform: translateY(-3px);
+}
+
+.favorite-reason-card h3 {
+    color: #1a1a1a;
+    font-weight: 600;
+    margin-bottom: 12px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.favorite-reason-card p {
+    color: #555;
+    line-height: 1.6;
+    font-size: 15px;
+    text-align: justify;
+}
+
+/* Botón Eliminar en la lista de favoritos */
+.favorites-list-card .ant-btn-link {
+    color: #FF6347;
+    font-weight: 500;
+}
+
+.favorites-list-card .ant-btn-link:hover {
+    color: #FF4500;
+}
