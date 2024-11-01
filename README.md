@@ -13,7 +13,7 @@ Este proyecto es una aplicación web construida con React y Express que permite 
 
 ## Características
 
-- **Frontend** desarrollado en React con componentes para personajes, locaciones y episodios.
+- **Frontend** desarrollado en React, ant e iconos de google, para personajes, locaciones y episodios.
 - **Backend** con Express y MongoDB para almacenar y gestionar los favoritos de los usuarios.
 - **Persistencia** de favoritos con almacenamiento en local y sincronización con la base de datos.
 - **Desmarcado automático**: al quitar un favorito en la interfaz, se elimina también de la base de datos.
@@ -75,6 +75,7 @@ Este proyecto es una aplicación web construida con React y Express que permite 
 
 ## Estructura de archivos
 
+```plaintext
 rick-and-morty-app/
 ├── client/                 # Código del frontend en React
 │   ├── public/             # Archivos públicos (imágenes, favicon, etc.)
@@ -84,10 +85,10 @@ rick-and-morty-app/
 │       └── App.js          # Punto de entrada de la app
 ├── server/                 # Código del backend en Express
 │   ├── models/             # Modelos de datos (MongoDB)
-│   │   └── Favorite.js      # Modelo de favoritos
+│   │   └── Favorite.js     # Modelo de favoritos
 │   └── server.js           # Configuración y rutas del servidor Express
 └── README.md               # Documentación del proyecto
-
+```
 
 
 ## Rutas de API
